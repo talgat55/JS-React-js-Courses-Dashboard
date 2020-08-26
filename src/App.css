@@ -1,5 +1,13 @@
+body{
+  font-family: 'Baloo Bhai 2', cursive!important;
+  font-size: 15px;
+}
 .main-wrapper{
   width: 90%;
-  margin: 0 auto;
+  margin: 30px auto;
   display: flex;
+}
+.main-wrapper .content{
+  width: 100%;
+  padding-left: 30px;
 }
