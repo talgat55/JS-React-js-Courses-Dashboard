@@ -43,9 +43,9 @@ const Navigation = () => {
         <NavigationComponent>
             <ul>
                 {listLinks.map(item => (
-                    <li>
+                    <li key={item.id}>
                         <Link
-                            key={item.id}
+
                             to={item.link}
 
                         >

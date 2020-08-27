@@ -4,6 +4,7 @@ import Main from "../layout/Main";
 
 import Header from "../components/Header/Header";
 import GreetingBlock from "../components/GreetingBlock/GreatingBlock";
+import SearchBar from "../components/SearchBar/SearchBar";
 
 const Index = () => {
 
@@ -17,7 +18,9 @@ const Index = () => {
                         <GreetingBlock/>
                     </Col>
                     <Col  lg="6" xs="12">
-                        search
+                        <div className="d-flex">
+                            <SearchBar/>
+                        </div>
                     </Col>
                 </Row>
             </Main>
